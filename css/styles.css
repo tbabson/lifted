@@ -603,9 +603,17 @@ OUR gallery
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   }
 }
+@media screen and (max-width: 768px) {
+  .img-hov:hover {
+    transform: scale(1.05);
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: var(--transition);
+  }
+}
 @media screen and (min-width: 768px) {
   .img-hov:hover {
-    transform: scale(1.3);
+    transform: scale(1.2);
     border-radius: 5px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
     transition: var(--transition);
