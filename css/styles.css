@@ -451,6 +451,15 @@ PRODUCTS
 .product-price {
   color: var(--clr-primary);
 }
+@media screen and (min-width: 576px) {
+  .product {
+    /* float: left; */
+    width: 70%;
+    height: 100%;
+    padding-right: 2rem;
+    margin: 0 auto;
+  }
+}
 
 @media screen and (min-width: 768px) {
   .product {
